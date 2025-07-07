@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://gmlopez11:Gbweorporquesi0104@cluster0.m97iqmd.mongodb.net/BD_EXAMN2?retryWrites=true&w=majority&tls=true', {
+mongoose.connect('mongodb+srv://gmlopez11:Gbweorporquesi0104@cluster0.m97iqmd.mongodb.net/BD_EXAM2?retryWrites=true&w=majority&tls=true', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
